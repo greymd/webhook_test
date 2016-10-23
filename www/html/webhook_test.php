@@ -1,4 +1,4 @@
 <?php
-echo "This is Webhook Test! yay!"
-echo "Turai."
+echo "This is Webhook Test! yay!";
+echo "Turai";
 ?>
