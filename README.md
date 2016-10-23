@@ -15,3 +15,9 @@ root@ubuntu:~# git clone https://github.com/greymd/webhook_test.git
 root@ubuntu:~# cd webhook_test/
 ```
 
+
+# 3.execution
+
+```
+while true;do echo "HTTP/1.0 200 Ok" | nc -l 8080 > /dev/null && git pull origin master && rsync -a ./www/html/ /var/www/html ;done
+```
