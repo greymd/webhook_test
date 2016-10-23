@@ -1,3 +1,3 @@
-<?
-echo "This is Webhook Test!"
+<?php
+echo "This is Webhook Test! yay!"
 ?>
